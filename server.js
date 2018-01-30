@@ -43,6 +43,42 @@ var server = http.createServer (function (req, res) {
     case '/headshot3.jpg':
       sendFile(res, 'public/headshot3.jpg', 'image/jpeg', 200)
       break
+    case '/headshot4.jpg':
+      sendFile(res, 'public/headshot4.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot5.jpg':
+      sendFile(res, 'public/headshot5.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot6.jpg':
+      sendFile(res, 'public/headshot6.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot7.jpg':
+      sendFile(res, 'public/headshot7.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot8.jpg':
+      sendFile(res, 'public/headshot8.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot9.jpg':
+      sendFile(res, 'public/headshot9.jpg', 'image/jpeg', 200)
+      break
+    case '/video1.mp4':
+      sendFile(res, 'public/video1.mp4', 'video/mp4', 200)
+      break
+    case '/android-chrome-192x192.png':
+      sendFile(res, 'public/vandroid-chrome-192x192.png', 'image/png', 200)
+      break
+    case '/android-chrome-512x512.png':
+      sendFile(res, 'public/vandroid-chrome-512x512.png', 'image/png', 200)
+      break
+    case '/apple-touch-icon.png':
+      sendFile(res, 'public/apple-touch-icon.png', 'image/png', 200)
+      break
+    case '/favicon-16x16.png':
+      sendFile(res, 'public/favicon-16x16.png.png', 'image/png', 200)
+      break
+    case '/favicon-32x32.png':
+      sendFile(res, 'public/favicon-32x32.png.png', 'image/png', 200)
+      break
     default:
       sendFile(res, 'public/404.html', 'text/html', 404)
   }
