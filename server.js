@@ -34,6 +34,15 @@ var server = http.createServer (function (req, res) {
     case '/resume.jpg':
       sendFile(res, 'public/resume.jpg', 'image/jpeg', 200)
       break
+    case '/headshot1.jpg':
+      sendFile(res, 'public/headshot1.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot2.jpg':
+      sendFile(res, 'public/headshot2.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot3.jpg':
+      sendFile(res, 'public/headshot3.jpg', 'image/jpeg', 200)
+      break
     default:
       sendFile(res, 'public/404.html', 'text/html', 404)
   }

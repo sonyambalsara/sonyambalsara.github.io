@@ -1,40 +1,133 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Sonya Balsara</title>
-	<meta charset="UTF-8">
-  	<meta name="description" content="Sonya Balsara is a New York City based actress">
-  	<meta name="keywords" content="Sonya,Balsara,actor,actress,NYC">
-  	<meta name="author" content="Sonya Balsara">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Bootstrap Theme Simply Me</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script>
+  	$("#where").click(function() {
+  		alert('hi')
+	    
+	});
+	$("#who").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $(".bg-2").offset().top
+	    }, 2000);
+	});
+	$("#what").click(function() {
+	    $('html, body').animate({
+	        scrollTop: $(".bg-3").offset().top
+	    }, 2000);
+	});
+	</script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #9BABA8; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #879564; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #E7EADF; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #C5B39D; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  </style>
 </head>
 <body>
-<div class="row">
-	<div class="col-3 menu">
-	  <ul>
-	    <li>
-			<a href="index.html"><h1>Sonya Balsara</h1></a>
-		</li>
-		<li>
-			<a href="mailto:sonyambalsara@gmail.com">sonyambalsara@gmail.com</a>
-		</li>
-		<br>
-		<br>
-		<li class="navlist">
-			<a href="/about/index.html">About</a>
-		</li>
-		<li class="navlist">
-			<a href="/resume.html">Resume</a>
-		</li>
-		<li class="navlist">
-			<a href="/photos/index.html">Photos</a>
-		</li>
-		<li class="navlist">
-			<a href="/videos/index.html">Videos</a>
-		</li>
-	  </ul>
-	</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Sonya M. Balsara</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" id='who' onclick='$("html, body").animate({scrollTop: $(".bg-1").offset().top}, 500);'>WHO</a></li>
+        <li><a href="#" id='what' onclick='$("html, body").animate({scrollTop: $(".bg-2").offset().top}, 500);'>WHAT</a></li>
+        <li><a href="#" id='where' onclick='$("html, body").animate({scrollTop: $(".bg-3").offset().top}, 500);'>WHERE</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">Who Am I?</h3>
+  <h3>Sonya was born in Brooklyn and raised in Berkeley, CA. Brought up by a professional classical singer and a chemical engineering professor, she grew up with a passion for both academia and the arts. She began singing and acting at a young age, performing at local community theaters in the Bay Area and participating in vocal competitions on the west coast. She decided to return to her home town and is currently finishing her final year at NYU Tisch School of the Arts with a BFA in Drama, a concentration in Musical Theatre, and a minor in business.When she is not performing or studying, she loves writing, hiking, camping, traveling, and volunteering.
+</h3>
 </div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Headshots</h3>
+  <img src="headshot1.jpg" class="img-responsive img-circle margin" style="display:inline" alt="headshot1" width="350" height="350">
+  <img src="headshot2.jpg" class="img-responsive img-circle margin" style="display:inline" alt="headshot2" width="350" height="350">
+  <img src="headshot3.jpg" class="img-responsive img-circle margin" style="display:inline" alt="headshot3" width="350" height="350">
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin"></h3>Videos<br>
+    <div class="text-center margin coming-soon">
+      <h4>Coming Soon!</h4>   
+    </div>
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-4 text-center">    
+  <h3 class="margin"></h3>Resume<br>
+  <div class="row">
+    <div class="text-center">
+  		<img src="resume.jpg" class="img-responsive margin" style="display:inline" alt="Bird" width="500" height="500">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Copyright © 2018 Sonya M. Balsara. All Rights Reserved.</a></p> 
+</footer>
+
 </body>
 </html>
