@@ -20,27 +20,14 @@
       font: 20px Montserrat, sans-serif;
       line-height: 1.8;
       color: #f5f6f7;
+      background-color: #9BABA8; /* Green */
+
   }
   p {font-size: 16px;}
 
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-      background-color: #9BABA8; /* Green */
       color: #ffffff;
-  }
-  .bg-2 { 
-      background-color: #E7EADF; /* Dark Blue */
-      color: #555555;
-  }
-  .bg-3 { 
-      background-color: #879564; /* White */
-      color: #ffffff;
-  }
-  .bg-4 { 
-      background-color: #C5B39D; /* Black Gray */
-      color: #fff;
-      padding-right: 50px;
-      padding-left: 50px;
   }
   .container-fluid {
       padding-top: 70px;
@@ -54,6 +41,9 @@
       margin-bottom: 0;
       font-size: 12px;
       letter-spacing: 5px;
+      position: absolute;
+      top: 0;
+      width: 100%;
   }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
@@ -63,7 +53,7 @@
 <body>
 
 <!-- Navbar -->
-<nav class="navbar navbar-default">
+<<nav class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -75,10 +65,10 @@
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" id='who' onclick='$("html, body").animate({scrollTop: $(".bg-1").offset().top}, 500);'>BIO</a></li>
-        <li><a href="#" id='photos' onclick='$("html, body").animate({scrollTop: $(".bg-2").offset().top}, 500);'>GALLERY</a></li>
-        <li><a href="#" id='videos' onclick='$("html, body").animate({scrollTop: $(".bg-3").offset().top}, 500);'>MEDIA</a></li>
-        <li><a href="#" id='resume' onclick='$("html, body").animate({scrollTop: $(".bg-4").offset().top}, 500);'>RÉSUMÉ</a></li>
+        <li><a href="/index.html" id='bio';'>HOME</a></li>
+        <li><a href="/gallery.html" id='gallery'>GALLERY</a></li>
+        <li><a href="/media.html" id='media'>MEDIA</a></li>
+        <li><a href="/resume.html" id='resume'>RÉSUMÉ</a></li>
       </ul>
     </div>
   </div>
@@ -86,46 +76,16 @@
 
 <!-- First Container -->
 <div class="container-fluid bg-1 text-center">
+  <img src="headshot2.jpg" class="img-responsive margin" style="display:inline" alt="headshot2" width="350" height="350">
+  <img src="headshot3.jpg" class="img-responsive margin" style="display:inline" alt="headshot3" width="350" height="350">
   <h2 class="margin">Bio</h2>
   <h3>Sonya Balsara is an actress, singer, and model based in New York City. A recent graduate of NYU Tisch School of the Arts, she studied Musical Theatre at the New Studio on Broadway, film acting at Stonestreet studios and entertainment business at the Stern School of Business and Steinhardt.</h3> 
   <h3>She has most recently been seen on Mozart in the Jungle Season 4, has filmed commercials for New York Fashion Week and Extra Gum on MTV, and has been featured in latin singer-songwriter Sebastian Coloma's music video "Dime Tu." In the coming year, she will be featured in ThredUp's new social media campaign and can be found in the indie feature film Boarding School directed by Boaz Yakin (Uptown Girls, Remember the Titans), which will be released internationally this year.</h3> 
   <h3>Raised by Rita Lilly, a professional classical singer native to New York and Nitash Balsara, a polymer scientist from India, Sonya is fascinated by multiculturalism, art, and discovering how to make the world better, safer, and more inclusive. She finds inspiration in exploring the world through hiking, volunteering, and traveling.</h3>
 </div>
 
-<!-- Second Container -->
-<div class="container-fluid bg-2 text-center">
-  <h2 class="margin">Gallery</h2>
-  <img src="headshot2.jpg" class="img-responsive margin" style="display:inline" alt="headshot2" width="350" height="350">
-  <img src="headshot3.jpg" class="img-responsive margin" style="display:inline" alt="headshot3" width="350" height="350">
-  <img src="headshot1.jpg" class="img-responsive margin" style="display:inline" alt="headshot1" width="350" height="350">
-  <br></br>
-  <img src="headshot4.jpg" class="img-responsive margin" style="display:inline" alt="headshot4" width="350" height="350">
-  <img src="headshot5.jpg" class="img-responsive margin" style="display:inline" alt="headshot5" width="350" height="350">
-  <img src="headshot6.jpg" class="img-responsive margin" style="display:inline" alt="headshot6" width="350" height="350">
-  <br></br>
-  <img src="headshot7.jpg" class="img-responsive margin" style="display:inline" alt="headshot7" width="350" height="350">
-  <img src="headshot8.jpg" class="img-responsive margin" style="display:inline" alt="headshot8" width="350" height="350">
-  <img src="headshot9.jpg" class="img-responsive margin" style="display:inline" alt="headshot9" width="350" height="350">
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-3 text-center">    
-  <h2 class="margin">Media</h2>
-  <video id="video1" class="img-responsive margin" style="display:inline" src="video1.mp4" width='700' height='700' controls></video>
-</div>
-
-<!-- Third Container (Grid) -->
-<div class="container-fluid bg-4 text-center">
-  <h2 class="margin">Résumé</h2>
-  <div class="row">
-    <div class="text-center margin">
-  		<img src="resume.jpg" class="img-responsive margin" style="display:inline" alt="resume" width="700" height="700">
-    </div>
-  </div>
-</div>
-
 <!-- Footer -->
-<footer class="container-fluid bg-4 text-center">
+<footer class="container-fluid bg-1 text-center">
   <p>Copyright © 2018 Sonya M. Balsara. All Rights Reserved.</a></p> 
 </footer>
 

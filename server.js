@@ -16,14 +16,14 @@ var server = http.createServer (function (req, res) {
     case '/resume.html':
       sendFile(res, 'public/resume.html', 'text/html', 200)
       break
-    case '/photos/index.html':
-      sendFile(res, 'public/photos.html', 'text/html', 200)
+    case '/gallery.html':
+      sendFile(res, 'public/gallery.html', 'text/html', 200)
       break
-    case '/about/index.html':
-      sendFile(res, 'public/about.html', 'text/html', 200)
+    case '/resume.html':
+      sendFile(res, 'public/resume.html', 'text/html', 200)
       break
-    case '/videos/index.html':
-      sendFile(res, 'public/videos.html', 'text/html', 200)
+    case '/media.html':
+      sendFile(res, 'public/media.html', 'text/html', 200)
       break
     case '/css/style.css':
       sendFile(res, 'public/css/style.css', 'text/css', 200)
@@ -63,6 +63,9 @@ var server = http.createServer (function (req, res) {
       break
     case '/video1.mp4':
       sendFile(res, 'public/video1.mp4', 'video/mp4', 200)
+      break
+    case '/resume.pdf':
+      sendFile(res, 'public/resume.pdf', 'application/pdf', 200)
       break
     case '/android-chrome-192x192.png':
       sendFile(res, 'public/vandroid-chrome-192x192.png', 'image/png', 200)
