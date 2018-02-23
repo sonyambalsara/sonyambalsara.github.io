@@ -67,6 +67,12 @@ var server = http.createServer (function (req, res) {
     case '/resume.pdf':
       sendFile(res, 'public/resume.pdf', 'application/pdf', 200)
       break
+    case '/BobbyandJackieandJack.mp3':
+      sendFile(res, 'public/BobbyandJackieandJack.mp3', 'audio/mpeg', 200)
+      break
+    case '/vienna.mp3':
+      sendFile(res, 'public/vienna.mp3', 'audio/mpeg', 200)
+      break
     case '/android-chrome-192x192.png':
       sendFile(res, 'public/vandroid-chrome-192x192.png', 'image/png', 200)
       break
