@@ -7,6 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  	
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -17,15 +19,15 @@
   <meta name="theme-color" content="#ffffff">
   <style>
   body {
-      font: 20px Montserrat, sans-serif;
+      font: 15px Crimson Text, serif;
       line-height: 1.8;
       color: #f5f6f7;
       background-color: #9BABA8; /* Green */
 
   }
-  p {font-size: 16px;}
+  p {font-size: 12px;}
 
-  .margin {margin-bottom: 45px;}
+  .margin {margin-bottom: 45px; display: inline-block; float: left;}
   .bg-1 { 
       color: #ffffff;
   }
@@ -33,6 +35,31 @@
       padding-top: 70px;
       padding-bottom: 70px;
   }
+
+
+
+  @media (min-width: 1040px) {
+    .title-text {
+    	font-family: 'Great Vibes', cursive;
+    	position: absolute;
+    	bottom: -.2em;
+    	left: .3em;
+    	font-size: 7em;
+    }
+    .container {
+        position: relative;
+        text-align: center;
+        color: white;
+        width:63%;
+    }
+    .margin {margin-bottom: 45px;}
+
+  }
+  @media (max-width: 1039px) {
+	  .title-text {
+	  	display: none;
+	  }
+	}
   .navbar {
       padding-top: 15px;
       padding-bottom: 15px;
@@ -75,18 +102,20 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <img src="headshot2.jpg" class="img-responsive margin" style="display:inline" alt="headshot2" width="350" height="350">
-  <img src="headshot3.jpg" class="img-responsive margin" style="display:inline" alt="headshot3" width="350" height="350">
-  <h2 class="margin">Bio</h2>
-  <h3>Sonya Balsara is an actress, singer, and model based in New York City. A recent graduate of NYU Tisch School of the Arts, she studied Musical Theatre at the New Studio on Broadway, film acting at Stonestreet studios and entertainment business at the Stern School of Business and Steinhardt.</h3> 
+<div class="container-fluid bg-1">
+  <div class='container margin'>
+  	<img src="headshot2.jpg" class="img-responsive margin" style="display:inline" alt="headshot2" width="350" height="350">
+  	<img src="headshot3.jpg" class="img-responsive margin margin-image" style="display:inline" alt="headshot3" width="350" height="350">
+  	<h1 class='title-text'>Sonya Balsara</h1>
+  </div>
+  <h3 >Sonya Balsara is an actress, singer, and model based in New York City. A recent graduate of NYU Tisch School of the Arts, she studied Musical Theatre at the New Studio on Broadway, film acting at Stonestreet studios and entertainment business at the Stern School of Business and Steinhardt.</h3> 
   <h3>She has most recently been seen on Mozart in the Jungle Season 4, has filmed commercials for New York Fashion Week and Extra Gum on MTV, and has been featured in latin singer-songwriter Sebastian Coloma's music video "Dime Tu." In the coming year, she will be featured in ThredUp's new social media campaign and can be found in the indie feature film Boarding School directed by Boaz Yakin (Uptown Girls, Remember the Titans), which will be released internationally this year.</h3> 
   <h3>Raised by Rita Lilly, a professional classical singer native to New York and Nitash Balsara, a polymer scientist from India, Sonya is fascinated by multiculturalism, art, and discovering how to make the world better, safer, and more inclusive. She finds inspiration in exploring the world through hiking, volunteering, and traveling.</h3>
 </div>
 
 <!-- Footer -->
 <footer class="container-fluid bg-1 text-center">
-  <p>Copyright © 2018 Sonya M. Balsara. All Rights Reserved.</a></p> 
+  <p>Copyright © 2018 Sonya M. Balsara. All Rights Reserved.</p> 
 </footer>
 
 </body>

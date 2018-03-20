@@ -83,10 +83,10 @@ var server = http.createServer (function (req, res) {
       sendFile(res, 'public/apple-touch-icon.png', 'image/png', 200)
       break
     case '/favicon-16x16.png':
-      sendFile(res, 'public/favicon-16x16.png.png', 'image/png', 200)
+      sendFile(res, 'public/favicon-16x16.png', 'image/png', 200)
       break
-    case '/favicon-32x32.png':
-      sendFile(res, 'public/favicon-32x32.png.png', 'image/png', 200)
+    case '/favicon.ico':
+      sendFile(res, 'public/favicon.ico', 'image/x-icon', 200)
       break
     default:
       sendFile(res, 'public/404.html', 'text/html', 404)
