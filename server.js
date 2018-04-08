@@ -61,8 +61,8 @@ var server = http.createServer (function (req, res) {
     case '/headshot9.jpg':
       sendFile(res, 'public/headshot9.jpg', 'image/jpeg', 200)
       break
-    case '/video1.mp4':
-      sendFile(res, 'public/video1.mp4', 'video/mp4', 200)
+    case '/mozart.mp4':
+      sendFile(res, 'public/mozart.mp4', 'video/mp4', 200)
       break
     case '/resume.pdf':
       sendFile(res, 'public/resume.pdf', 'application/pdf', 200)
