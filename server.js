@@ -34,6 +34,78 @@ var server = http.createServer (function (req, res) {
     case '/resume.jpg':
       sendFile(res, 'public/resume.jpg', 'image/jpeg', 200)
       break
+    case '/gallery1.jpg':
+      sendFile(res, 'public/gallery1.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery2.jpg':
+      sendFile(res, 'public/gallery2.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery3.jpg':
+      sendFile(res, 'public/gallery3.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery4.jpg':
+      sendFile(res, 'public/gallery4.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery5.jpg':
+      sendFile(res, 'public/gallery5.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery6.jpg':
+      sendFile(res, 'public/gallery6.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery7.jpg':
+      sendFile(res, 'public/gallery7.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery8.jpg':
+      sendFile(res, 'public/gallery8.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery9.jpg':
+      sendFile(res, 'public/gallery9.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery10.jpg':
+      sendFile(res, 'public/gallery10.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery11.jpg':
+      sendFile(res, 'public/gallery11.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery12.jpg':
+      sendFile(res, 'public/gallery12.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery13.jpg':
+      sendFile(res, 'public/gallery13.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery14.jpg':
+      sendFile(res, 'public/gallery14.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery15.jpg':
+      sendFile(res, 'public/gallery15.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery16.jpg':
+      sendFile(res, 'public/gallery16.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery17.jpg':
+      sendFile(res, 'public/gallery17.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery18.jpg':
+      sendFile(res, 'public/gallery18.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery19.jpg':
+      sendFile(res, 'public/gallery19.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery20.jpg':
+      sendFile(res, 'public/gallery20.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery21.jpg':
+      sendFile(res, 'public/gallery21.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery22.jpg':
+      sendFile(res, 'public/gallery22.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery23.jpg':
+      sendFile(res, 'public/gallery23.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery24.jpg':
+      sendFile(res, 'public/gallery24.jpg', 'image/jpeg', 200)
+      break
     case '/headshot1.jpg':
       sendFile(res, 'public/headshot1.jpg', 'image/jpeg', 200)
       break
