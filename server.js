@@ -136,6 +136,9 @@ var server = http.createServer (function (req, res) {
     case '/mozartpic.jpg':
       sendFile(res, 'public/mozartpic.jpg', 'image/jpeg', 200)
       break
+    case '/vma.jpg':
+      sendFile(res, 'public/vma.jpg', 'image/jpeg', 200)
+      break
     case '/mozart.mp4':
       sendFile(res, 'public/mozart.mp4', 'video/mp4', 200)
       break
