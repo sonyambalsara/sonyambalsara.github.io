@@ -133,6 +133,45 @@ var server = http.createServer (function (req, res) {
     case '/headshot9.jpg':
       sendFile(res, 'public/headshot9.jpg', 'image/jpeg', 200)
       break
+    case '/portfolio1.jpg':
+      sendFile(res, 'public/portfolio1.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio2.jpg':
+      sendFile(res, 'public/portfolio2.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio3.jpg':
+      sendFile(res, 'public/portfolio3.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio4.jpg':
+      sendFile(res, 'public/portfolio4.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio5.jpg':
+      sendFile(res, 'public/portfolio5.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio6.jpg':
+      sendFile(res, 'public/portfolio6.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio7.jpg':
+      sendFile(res, 'public/portfolio7.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio8.jpg':
+      sendFile(res, 'public/portfolio8.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio9.jpg':
+      sendFile(res, 'public/portfolio9.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio10.jpg':
+      sendFile(res, 'public/portfolio10.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio11.jpg':
+      sendFile(res, 'public/portfolio11.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio12.jpg':
+      sendFile(res, 'public/portfolio12.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio13.jpg':
+      sendFile(res, 'public/portfolio13.jpg', 'image/jpeg', 200)
+      break
     case '/mozartpic.jpg':
       sendFile(res, 'public/mozartpic.jpg', 'image/jpeg', 200)
       break
