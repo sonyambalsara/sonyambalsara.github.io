@@ -106,6 +106,18 @@ var server = http.createServer (function (req, res) {
     case '/gallery24.jpg':
       sendFile(res, 'public/gallery24.jpg', 'image/jpeg', 200)
       break
+    case '/gallery25.jpg':
+      sendFile(res, 'public/gallery25.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery26.jpg':
+      sendFile(res, 'public/gallery26.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery27.jpg':
+      sendFile(res, 'public/gallery27.jpg', 'image/jpeg', 200)
+      break
+    case '/gallery28.jpg':
+      sendFile(res, 'public/gallery28.jpg', 'image/jpeg', 200)
+      break
     case '/headshot1.jpg':
       sendFile(res, 'public/headshot1.jpg', 'image/jpeg', 200)
       break
@@ -132,6 +144,24 @@ var server = http.createServer (function (req, res) {
       break
     case '/headshot9.jpg':
       sendFile(res, 'public/headshot9.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot10.jpg':
+      sendFile(res, 'public/headshot10.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot11.jpg':
+      sendFile(res, 'public/headshot11.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot12.jpg':
+      sendFile(res, 'public/headshot12.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot13.jpg':
+      sendFile(res, 'public/headshot13.jpg', 'image/jpeg', 200)
+      break
+    case '/headshot14.jpg':
+      sendFile(res, 'public/headshot14.jpg', 'image/jpeg', 200)
+      break
+    case '/portfolio.jpg':
+      sendFile(res, 'public/portfolio.jpg', 'image/jpeg', 200)
       break
     case '/portfolio1.jpg':
       sendFile(res, 'public/portfolio1.jpg', 'image/jpeg', 200)
